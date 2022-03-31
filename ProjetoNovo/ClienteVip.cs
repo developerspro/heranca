@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProjetoNovo
+{
+    class ClienteVip : Cliente
+    {
+        public int codigoVip;
+        public  void exibirDados()
+        {
+            Console.WriteLine("Codigo Vip"+codigoVip);
+            exibirNome();
+        }
+    }
+}
